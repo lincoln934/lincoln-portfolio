@@ -47,6 +47,7 @@ header h1 a {
     background-color: var(--quarternary-color);
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
     border-radius: 15px;
+    padding: 10px;
   }
   
 header nav {
@@ -86,55 +87,59 @@ header nav ul li a:hover {
   align-items: flex-start;
   background-attachment: fixed;
   background-position: 80%;
+  position: relative;
+  opacity: 80%;
 }  
-.hero-img h2 p {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 .hero-img {
   width: 10%;
-  border-radius: 15px;
+  border-radius: 50%;
   margin: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
   align-items: flex-start;
+  float: left;
+  border: var(--quarternary-color) double 3px;
 }
-.hero-img h2 {
-  font-size: 50px;
-  font-weight: 900;
+.bio-title{
+  color: var(--quarternary-color);
+  margin: 20px;
+  font-size: 24px;
+  border-bottom: var(--quarternary-color) solid 5px;
 }
-
-/* SECTION TITLE STYLES START */
-.section-title {
-  font-size: 48px;
-  border-bottom: 3px solid;
+.bio {
   color: var(--secondary-color);
-  padding-bottom: 0;
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
-  background-color: var(--tertiary-color);
+}
+/* HERO STYLES SECTION ENDS */
+/* MY WORK STYLES START */
+.projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+  position: relative;
+}  
+.run-buddy {
+  width: 25%;
+  border-radius: 5px;
+  margin: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  align-items: center;
+  float: left;
+}
+.project-one-title {
+  color: var(--quarternary-color);
+  padding: 20px;
+}
+.details {
+  color: var(--quarternary-color)
 }
 
-.primary-border {
-  border-color: var(--primary-color);
-}
-
-.secondary-border {
-  border-color: var(--tertiary-color);
-}
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
-.intro p {
-  line-height: 1.7;
-  color: var(--secondary-color);
-  width: 80%;
-  margin: 0 auto;
-  font-size: 20px;
-  text-align: center;
-  background-color: var(--tertiary-color);
-}
+
 /* WHAT YOU DO STYLES END */
 
   /* FOOTER STYLES START */
