@@ -2,7 +2,7 @@
     --primary-color: #0a0a0a;
     --secondary-color: white;
     --tertiary-color: #7f9ba3;
-    --quarternary-color: #faa243;
+    --quarternary-color: #ffce7a;
   }
 
 * {
@@ -19,7 +19,7 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
-    padding: 20px 35px;
+    padding: 30px 15px;
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ header {
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 25px;
+    font-size: 36px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 header a {
@@ -82,6 +82,7 @@ header nav ul li a:hover {
   background-image: url('../images/purple-hero.jpg');
   background-size: cover;
   display: flex;
+  padding-top: 20px;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -89,6 +90,7 @@ header nav ul li a:hover {
   background-position: 80%;
   position: relative;
   opacity: 80%;
+  
 }  
 .hero-img {
   width: 10%;
@@ -98,15 +100,22 @@ header nav ul li a:hover {
   align-items: flex-start;
   float: left;
   border: var(--quarternary-color) double 3px;
+  opacity: 100%;
 }
 .bio-title{
-  color: var(--quarternary-color);
-  margin: 20px;
+  color: var(--primary-color);
+  margin-left: 20px;
+  margin-top: 40px;
   font-size: 24px;
-  border-bottom: var(--quarternary-color) solid 5px;
+  background-color: var(--secondary-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  border-radius: 15px;
+  padding: 5px;
+
 }
 .bio {
   color: var(--secondary-color);
+  margin-top: 20px;
 }
 /* HERO STYLES SECTION ENDS */
 /* MY WORK STYLES START */
@@ -117,9 +126,21 @@ header nav ul li a:hover {
   align-items: flex-start;
   background-attachment: fixed;
   background-position: 80%;
+  background-color: var(--quarternary-color);
   position: relative;
+}
+.projects h2 {
+  color: var(--primary-color);
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 24px;
+  background-color: var(--secondary-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  border-radius: 15px;
+  padding: 5px;
+
 }  
-.run-buddy {
+.project-image {
   width: 25%;
   border-radius: 5px;
   margin: 20px;
@@ -128,12 +149,12 @@ header nav ul li a:hover {
   align-items: center;
   float: left;
 }
-.project-one-title {
-  color: var(--quarternary-color);
+.project-title {
+  color: var(--primary-color);
   padding: 20px;
 }
 .details {
-  color: var(--quarternary-color)
+  color: var(--primary-color)
 }
 
 /* SECTION TITLE STYLES END */
@@ -144,7 +165,7 @@ header nav ul li a:hover {
 
   /* FOOTER STYLES START */
 footer {
-  padding: 20px 35px;
+  padding: 20px 0;
   background-color: var(--tertiary-color);
   display: flex;
   justify-content: space-between;
@@ -156,11 +177,20 @@ footer {
   border: solid 2px var(--quarternary-color);
   }
 footer h1 {
-  font-weight: bold;
-  margin: 0;
-  font-size: 25px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: var(--primary-color);
+  margin-left: 20px;
+  margin-top: 0;
+  font-size: 24px;
+  background-color: var(--secondary-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  border-radius: 15px;
+  padding: 5px;
   }
+footer div {
+  display: flex;
+  position: sticky;
+  flex-wrap: wrap;
+}
 footer a {
   text-decoration: none;
   color: var(--primary-color);
@@ -181,5 +211,19 @@ footer nav ul li a {
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
-  /* END FOOTER STYLES */
+qfooter nav ul li a:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  text-shadow: none;
+  }
+.icons {
+  margin:auto;
+  width: 3%;
+  background-color: #ffff;
+  border-radius: 55%;
+}
+.icons:hover {
+  opacity: 50%;
+}    
+/* END FOOTER STYLES */
   

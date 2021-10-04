@@ -1,0 +1,144 @@
+:root {
+    --primary-color: #0a0a0a;
+    --secondary-color: white;
+    --tertiary-color: #7f9ba3;
+    --quarternary-color: #ffce7a;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    color: var(--secondary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+/* HEADER / NAV BAR STYLES START */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
+    border: solid 2px var(--quarternary-color);
+  }
+  
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 25px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }  
+
+header h1 a {
+    border: solid 3px rgb(148, 97, 4);
+    background-color: var(--quarternary-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+header nav {
+    margin: 7px 0;
+  }
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+header nav ul li a:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  text-shadow: none;
+  }  
+/* HEADER / NAVBAR STYLES END */
+/* start resume section styles */
+.section {
+    width: auto;
+    text-align: center;
+    padding: 40px;
+}
+.resume {
+  background: var(--quarternary-color);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 20px 0 20px;
+  align-items: center;  
+}
+.resume img {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  max-width: 94%;
+  height: auto;
+  margin: 38px;
+}
+/* FOOTER STYLES START */
+footer {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
+    border: solid 2px var(--quarternary-color);
+    }
+  footer h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 25px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  footer a {
+    text-decoration: none;
+    color: var(--primary-color);
+    }  
+  footer nav {
+    margin: 7px 0;
+    }
+  footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    }
+  footer nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  footer nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 15px;
+    text-shadow: none;
+        }
+/* END FOOTER STYLES */
