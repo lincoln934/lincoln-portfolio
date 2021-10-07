@@ -3,6 +3,8 @@
     --secondary-color: white;
     --tertiary-color: #7f9ba3;
     --quarternary-color: #ffce7a;
+    --quinary-color:#7f9ba2;
+    --senary-color: #946104;
   }
 
 * {
@@ -28,7 +30,7 @@ header {
     position: -webkit-sticky;
     top: 0;
     z-index: 9999;
-    border: solid 2px var(--quarternary-color);
+    border: solid 2px var(--senary-color);
   }
   
 header h1 {
@@ -98,22 +100,23 @@ header nav ul li a:hover {
 }
 /* FOOTER STYLES START */
 footer {
-    padding: 20px 35px;
+    padding: 20px 0;
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 9999;
-    border: solid 2px var(--quarternary-color);
+    border: solid 2px var(--senary-color);
     }
   footer h1 {
-    font-weight: bold;
-    margin: 0;
-    font-size: 25px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: var(--primary-color);
+    margin-left: 20px;
+    font-size: 24px;
+    background-color: var(--quinary-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    padding: 5px;
+    position: relative;
     }
   footer a {
     text-decoration: none;
