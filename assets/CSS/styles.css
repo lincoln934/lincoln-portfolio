@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
   } 
+  /* BODY FORMATTING  */
 body {
     color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
@@ -69,7 +70,7 @@ header nav ul li a:hover {
     text-shadow: none;
   }  
 /* HEADER / NAVBAR STYLES END */
-/* HERO STYLES START */
+/* HERO/BIO STYLES START */
 .hero {
     background-image: url('../images/purple-hero.jpg');
     background-size: cover;
@@ -97,8 +98,8 @@ header nav ul li a:hover {
     margin-left: 20px;
     font-size: 18px;
 }
-/* HERO STYLES SECTION ENDS */
-/* MY WORK STYLES START */ 
+/* HERO/BIO STYLES SECTION ENDS */
+/* MAIN SECTION - MY WORK STYLES START */ 
 .projects {
     display: flex;
     justify-content: space-between;
@@ -128,13 +129,13 @@ header nav ul li a:hover {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .project-image-large {
-  width: 50%;
-  border-radius: 5px;
-  margin: 20px;
-  margin-bottom: 40px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-  align-items: center;
-  float: left;
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    align-items: center;
+    float: left;
 }
 .project-image {
     width: 20%;
@@ -150,7 +151,7 @@ header nav ul li a:hover {
     font-size: 18px;
     margin-left: 20px;
 }
-/* SECTION TITLE STYLES END */
+/* MAIN SECTION - SECTION TITLE STYLES END */
 /* FOOTER STYLES START */
 footer {
     border: solid 2px var(--senary-color);  

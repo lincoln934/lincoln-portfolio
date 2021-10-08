@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   }
+  /* BODY FORMATTING FOR RESUME TAB  */
 body {
   color: var(--secondary-color);
   font-family: Helvetica, Arial, sans-serif;
@@ -69,7 +70,7 @@ header nav ul li a:hover {
   text-shadow: none;
   }  
 /* HEADER / NAVBAR STYLES END */
-/* start resume section styles */
+/* START OF RESUME PDF FILE FORMATTING */
 .section {
   width: auto;
   text-align: center;
@@ -88,6 +89,7 @@ header nav ul li a:hover {
   height: auto;
   margin: 38px;
 }
+/* END RESUME FORMATTING */
 /* FOOTER STYLES START */
 footer {
   padding: 20px 0;
@@ -129,11 +131,11 @@ footer nav ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 footer nav ul li a:hover {
-    background: var(--secondary-color);
-    color: var(--primary-color);
-    border-radius: 15px;
-    text-shadow: none;
-        }
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  text-shadow: none;
+  }
 /* END FOOTER STYLES */
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
