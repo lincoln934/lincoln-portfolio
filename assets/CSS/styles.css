@@ -127,6 +127,15 @@ header nav ul li a:hover {
     font-style: italic;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.project-image-large {
+  width: 50%;
+  border-radius: 5px;
+  margin: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  align-items: center;
+  float: left;
+}
 .project-image {
     width: 20%;
     border-radius: 5px;
