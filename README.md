@@ -34,6 +34,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ## Description
 
+Class project to build a portfolio to display my coding work and to eventually use to show potential employers as i progress in the class and build a body of work.
+```
 Build of this website started with a wiring exercise to layout teh design on paper.  This scheme was then transferred into HTML in flow only before populating with actual content.  once basic flow and semantic convention was finished, the HTML was populated with content inclusive of links  to external sources, images, hero graphic, text, links to portfolio work.  a seoerate HTML was built to hold a pdf of my resume and links were connected between pages.  CSS was used to finalize all the section formats and to address flow concerns.   
 
 ## Usage
